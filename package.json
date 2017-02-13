@@ -1,10 +1,14 @@
 {
   "name": "today-slack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sends a message in a slack channel containing information about the day and wishing you a great day (Swedish)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adsa95/goodmorning-slack.git"
   },
   "author": "Adam Sandström <adsa95@gmail.com>",
   "license": "ISC",
