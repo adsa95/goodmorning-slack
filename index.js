@@ -18,5 +18,5 @@ dryg.fetchDay(new Date())
     console.log('Message sent!');
   })
   .catch(function(err) {
-    console.log(err)
+    console.error(err);
   });
