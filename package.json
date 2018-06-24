@@ -4,7 +4,8 @@
   "description": "Sends a message in a slack channel containing information about the day and wishing you a great day (Swedish)",
   "main": "index.js",
   "scripts": {
-    "run": "node index"
+    "run": "node index",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,10 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
