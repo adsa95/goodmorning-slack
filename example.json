@@ -1,0 +1,20 @@
+{
+    "cachetid": "2018-06-24 11:23:12",
+    "version": "2.1",
+    "uri": "/dagar/v2.1/2018/6/23",
+    "startdatum": "2018-06-23",
+    "slutdatum": "2018-06-23",
+    "dagar": [
+        {
+            "datum": "2018-06-23",
+            "veckodag": "Lrdag",
+            "arbetsfri dag": "Ja",
+            "rd dag": "Ja",
+            "vecka": "25",
+            "dag i vecka": "6",
+            "helgdag": "Midsommardagen",
+            "namnsdag": ["Paula", "Paulina"],
+            "flaggdag": "Midsommardagen"
+        }
+    ]
+}
