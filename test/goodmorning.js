@@ -69,16 +69,11 @@ describe('goodmorning', function() {
 
     it('should not mention "namnsdag" with no name days', function() {
       for (let i = 0; i < cases.length; i++) {
-        let day = {
-          weekday: 'Tuesday',
-          week: 25,
-          holiday: 'Midsummer Eve',
-          nameDays: []
+        let actual = gm.buildMessage(cases[i]);
+
+        if (cases[i].nameDays.length === 0) {
+          assert.ok(actual.indexOf('namnsdag') === -1);
         }
-
-        let actual = gm.buildMessage(day);
-
-        assert.ok(actual.indexOf('namnsdag') === -1);
       }
     });
   });
